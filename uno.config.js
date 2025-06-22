@@ -1,7 +1,8 @@
-import { defineConfig, presetWind4, transformerVariantGroup } from 'unocss';
+import preset from '@somehow-digital/unocss-preset';
+import { defineConfig, transformerVariantGroup } from 'unocss';
 
 export default defineConfig({
-	presets: [presetWind4()],
+	presets: [preset()],
 	rules: [],
 	safelist: [],
 	theme: {
