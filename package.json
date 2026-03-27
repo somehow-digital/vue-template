@@ -49,11 +49,5 @@
 		"vite": "^8.0.0",
 		"vite-plugin-vue-devtools": "^8.0.0",
 		"vue-tsc": "^3.0.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"oxc-resolver"
-		]
 	}
 }
