@@ -5,7 +5,11 @@ import tools from 'vite-plugin-vue-devtools';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
-	plugins: [vue(), tools(), unocss()],
+	plugins: [
+		vue(),
+		tools(),
+		unocss(),
+	],
 	resolve: {
 		alias: {
 			'@': fileURLToPath(new URL('src', import.meta.url)),

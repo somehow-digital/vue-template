@@ -2,7 +2,9 @@ import preset from '@somehow-digital/unocss-preset';
 import { defineConfig, transformerVariantGroup } from 'unocss';
 
 export default defineConfig({
-	presets: [preset()],
+	presets: [
+		preset(),
+	],
 	rules: [],
 	safelist: [],
 	theme: {
@@ -10,5 +12,7 @@ export default defineConfig({
 		colors: {},
 		fontFamily: {},
 	},
-	transformers: [transformerVariantGroup()],
+	transformers: [
+		transformerVariantGroup(),
+	],
 });
